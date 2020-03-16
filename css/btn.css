@@ -1,0 +1,113 @@
+.social-btns .btn, .social-btns .btn:before, .social-btns .btn .fa {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    -webkit-transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns .btn:before {
+    top: 90%;
+    left: -110%;
+}
+
+.social-btns .btn img {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.social-btns .btn.facebook:before {
+    background-color: #3b5998;
+}
+
+
+
+.social-btns .btn.line:before {
+    background-color: #00B900;
+}
+
+.social-btns .btn.line .fa {
+    color: #3cf;
+}
+
+.social-btns .btn.bookstore:before {
+    background-color: #dc4a38;
+}
+
+.social-btns .btn.bookstore .fa {
+    color: #dc4a38;
+}
+
+.social-btns .btn.booking_b:before {
+    background-color: #f26798;
+}
+
+.social-btns .btn.booking_b .fa {
+    color: #f26798;
+}
+
+
+ .social-btns .btn:hover:before {
+    top: -10%;
+    left: -10%;
+}
+ 
+ .social-btns .btn:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.social-btns {
+    height: 300px;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.social-btns .btn {
+    width: 60px;
+    height: 60px;
+    line-height: 42px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+}
+.facebook{
+    background: #3b5998;
+}
+.line{
+    background-color: #00B900;
+}
+.bookstore{
+    background-color: #dc4a38;
+}
+.booking_b{
+    background-color: #f26798;
+
+}
+/* .social-btns{
+    display: flex;
+    flex-direction: column;
+} */
+.social-btns .btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.social-btns .btn img {
+ height: 30px;
+}
