@@ -1364,8 +1364,9 @@ button:hover {
 .main-part3 .class-card-down {
     padding: 2px 20px;
     position: relative;
-    height: 200px;
+    height: 150px;
     box-shadow: 0 -30px 50px #2F3030;
+    background: rgb(49,50,50);
 }
 
 .main-part3 .star_area {
@@ -1422,13 +1423,116 @@ button:hover {
     margin-top: 0px;
     justify-content: space-between;
     position: absolute;
-    top: 66%;
+    top: -33%;
     left: 5%;
 }
+.main-part3 .main-part3-bottom{
+    /* border: #fff 2px solid; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 
+}
+
+.main-part3-boxarea{
+    /* border: #fff 2px solid; */
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.main-part3-bottom-midarea{
+    width: 40%;
+
+    box-shadow: 0 0 5px #000
+}
+.main-part3-bottom-leftarea h4{
+    position: absolute;
+    color: #888;
+    font-size: 12px;
+    left: 15%;
+    top: 30%;
+}
+.main-part3-bottom-leftarea h5{
+    position: absolute;
+    color: #ccc;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 0%;
+    top: 60%;
+}
+.main-part3-bottom-leftarea p{
+    position: absolute;
+    color: #ccc;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 0%;
+    top: 60%;
+}
+.main-part3-bottom-midarea h5{
+    position: absolute;
+    color: #ccc;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 19%;
+    top: 60%;
+}
+.main-part3-bottom-midarea p{
+    position: absolute;
+    color: #ccc;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 19%;
+    top: 60%;
+}
+.main-part3-bottom-rightarea h5{
+    position: absolute;
+    color: #ccc;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 40%;
+    top: 60%;
+}
+.main-part3-bottom-rightarea p{
+    position: absolute;
+    color: #ccc;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 40%;
+    top: 60%;
+}
+.main-part3-bottom-midarea h4{
+    position: absolute;
+    color: #888;
+    font-size: 12px;
+    left:27%;
+    top: 30%;
+}
+.main-part3-bottom-rightarea h4{
+    position: absolute;
+    color: #888;
+    font-size: 12px;
+    left: 50%;
+    top: 30%;
+}
+.main-part3 .toptop{
+    height: 10px;
+    background: rgb(43, 44, 50);
+}
+.white-c .main-part3-bottom-midarea{
+    box-shadow: 0 0 10px #ccc;
+}
+.white-c .main-part3-bottom h4{
+    color: #ccc;
+}
+.white-c .main-part3-bottom h5{
+    color: #888;
+}
+.white-c .main-part3-bottom p{
+    color: #888;
+}
 .kinds_btn {
-    border: 1px solid #888;
-    color: #888888;
+    border: 1px solid #eee;
+    color: #fff;
     border-radius: 20px;
     padding: 1px 6px;
     cursor: pointer;
@@ -1455,13 +1559,21 @@ button:hover {
 }
 
 .buttom-yellow {
-    border: 10px solid #FFf !important;
+    border: 10px solid #313232 !important;
     color: #FFC11C !important;
 }
+.white-c .buttom-yellow{
+    border: 10px solid #fff !important;
+    color: #FFC11C !important;
+}
+.white-c .class-card-down{
+    background: #fff;
+}
 .sok{
-    border: 0px solid #FFf !important;
+    border: 0px solid #FfF !important;
     margin-top: 10px;
-    box-shadow: 5px 10px 10px #fc4b1a5d;
+    box-shadow: 5px 10px 10px #fc4b1a5d,1px 3px 5px rgba(0, 0, 0, 0.438);
+    
 
 }
 .colorful {
@@ -1472,13 +1584,30 @@ button:hover {
     background: linear-gradient(to right, #f7b733, #fc4a1a);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+
+
+.class-card-area{
+
+}
+
+
+
+
+
+
+
+
+
+
 .class-card-down h3 {
     position: absolute;
     left: 50%;
     width: 60%;
     transform: translateX(-50%);
-    top: 15%;
-    color: #fc4a1a;
+    top: -64%;
+    color: #fff;
+    text-shadow: 0 5px 5px #000;
     font-weight: 700;
 }
 @media screen and (max-width: 1300px) {
@@ -1628,11 +1757,168 @@ button:hover {
 }
 
 /* main-part4 */
+.outside_part4-right{
+    width: 50%;
+    height: 900px;
+}
+.part4-right-container{
+    background: url(../img/portfolio/oneclass/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.part4-red h5{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    top: 33%;
+    left: 32%;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 10px;
+}
+.part4-red .par4-uni-box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.part4-black .par4-uni-box{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #FD5D47;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.obj_fixed{
+    position: fixed;
+    top: 60px;
+    width: 100%;
+
+}
+.part4-red p{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    top: 47%;
+    left: 32%;
+    /* border-bottom: 2px solid #ccc; */
+    padding-bottom: 10px;
+}
+.part4-black{
+    position: relative;
+}
+.part4-black h3{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    top: 33%;
+    left: 32%;
+    color: #FfF;
+    border-bottom: 5px solid #FD5D47;
+    padding-bottom: 7px;
+}
+.part4-black p{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    top: 47%;
+    left: 32%;
+    color: #ccc;
+    /* border-bottom: 2px solid #ccc; */
+    padding-bottom: 10px;
+}
+.part4-right-container .part4-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FfF;
+    font-size: 42px;
+    transform:translate(-50%,-50%);
+    font-weight: 700;
+    padding: 90px 30px ;
+    background: rgba(255, 255, 255, 0.247);
+    border: 2px solid #fff;
+
+}
+.part4-title-little{
+    font-size: 16px;
+    color: #fff;
+
+}
+.mask-part4{
+    background: #FD5D47;
+    height: 100% ;
+    width: 100%;
+    opacity: 0.5;
+}
+.part4-change-pic{
+    /* border: 2px solid #ddd; */
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.part4-boxoutside{
+    display: flex;
+}
+.opacity0{
+    opacity: 0;
+
+}
+
+.part4-pic-area{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    /* background: #FD5D47; */
+}
+.nop{
+    position: relative;
+}
+.part4-pic-area-mid{
+    width: 50%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.part4Img{
+    
+    height: 100%;
+    /* transform: translateY(-100px); */
+}
+.part4-red{
+    background: #Fff;
+    position: relative;
+}
+
+.part4-black{
+    background: rgb(43, 44, 50);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .main-part4 {
-    height: 800px;
+    height: 2px;
     margin-top: -50px;
     background: #fff;
+
 }
 
 .part4_pic_box {
@@ -1834,7 +2120,7 @@ button:hover {
 /* main-part4 */
 
 .main-part4 {
-    height: 800px;
+    height: 2700px;
     margin-top: -50px;
     background: #fff;
 }
@@ -2009,10 +2295,20 @@ button:hover {
     margin: auto;
     text-align: center;
     position: relative;
+    margin-top: -30px ;
+    font-size: 20px;
+    color: #2B2C32;
 }
-
+.part5-mask-area{
+    background: #fc4a1a;
+    width: 100% ;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
 .fontSB {
-    font-size: 60px;
+    font-size: 32px;
 }
 
 .posa {
@@ -2035,13 +2331,14 @@ button:hover {
 
 .booking_button {
     padding: 10px 20px;
-    border: 3px solid #FD5D47;
+    border: 3px solid #Fff;
     position: absolute;
-    color: #FD5D47;
+    color: #Fff;
     font-size: 15px;
     font-weight: 700;
     border-radius: 5px;
     left: 50%;
+    top: 60%;
     transform: translate(-50%, 0%);
     cursor: pointer;
     text-decoration: none;
@@ -2086,6 +2383,9 @@ button:hover {
     position: relative;
     z-index: 50;
 }
+.part4-pic-area2{
+    transition: 0.1s;
+}
 .part5-mask{
     background: #2B2C32;
     width: 100% ;
@@ -2098,10 +2398,12 @@ button:hover {
 }
 .insideword h3 {
     font-weight: 700;
+    color: #ccc;
+
 }
 
 .insideword p {
-    color: #777;
+    color: #ccc;
     font-weight: 700;
 }
 
